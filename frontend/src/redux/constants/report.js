@@ -1,0 +1,28 @@
+export const RESET = "RESET";
+
+export const REPORT_UPDATED = "REPORT_UPDATED";
+
+export const REPORT_TYPE_UPDATED = "REPORT_TYPE_UPDATED";
+
+export const APPLICATION_UPDATED = "APPLICATION_UPDATED";
+
+export const AREA_UPDATED = "AREA_UPDATED";
+
+export const ROOM_UPDATED = "ROOM_UPDATED";
+
+export const DATETIME_UPDATED = "DATETIME_UPDATED";
+
+export const GROUBY_UPDATED = "GROUBY_UPDATED";
+
+export const DATA_REQUEST = "DATA_REQUEST"
+
+export const DATA_UPDATED = "DATA_UPDATED"
+
+export const DATA_REQUEST_ERROR = "DATA_REQUEST_ERROR"
+
+
+
+
+
+
+

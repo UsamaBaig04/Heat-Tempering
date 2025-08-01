@@ -1,0 +1,91 @@
+/* All Pages  Title */
+
+.page-title {
+    font-size: 1.6vw;
+    color: rgb(7, 100, 7);
+    font-weight: bolder;
+}
+
+/* search filter */
+// .search-filter {
+//     width: 25vw;
+//     height: 5vh;
+
+//     .form-control {
+//         font-size: 1.2vw;
+//     }
+
+//     .form-control:focus {
+//         box-shadow: none !important;
+//     }
+
+//     #basic-addon1 {
+//         background-color: rgb(7, 100, 7);
+//         font-size: 1.1vw;
+//     }
+
+// }
+
+
+// filter header 
+
+.filter-header {
+    display: flex;
+    justify-content: flex-end;
+    height: 9vh;
+    border: 1px solid lightgray;
+    padding: 2vh 0.5vw;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+}
+
+
+// oprator name
+.oprt-name {
+    display: flex;
+    width: 25vw;
+    height: 5vh;
+    background-color: rgb(36, 132, 36);
+    border-radius: 4px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+    color: white;
+    font-size: 1.2vw;
+}
+
+
+// matrial ui table
+.MuiTableCell-body {
+    text-align: center !important;
+    font-size: 1.2vw !important;
+}
+
+.MuiTableCell-head {
+    text-align: center !important;
+}
+
+
+// react table 
+.rt-thead {
+    font-weight: bold;
+}
+
+.-header {
+    border-bottom: 1px solid gray !important;
+}
+
+
+// bootstrap dropdoen button
+#dropdown-basic {
+    border: 1px solid lightgray;
+    width: 10vw;
+    font-size: 1.1vw;
+    height: 5vh;
+}
+
+
+.dropdown-menu.show {
+    font-size: 1.2vw;
+}

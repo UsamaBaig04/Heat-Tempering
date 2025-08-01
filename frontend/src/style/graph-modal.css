@@ -1,0 +1,73 @@
+.modal-btn{
+    height: 5vh !important;
+    display:flex;
+    align-items: center;
+    font-size: 1.5vw;
+    background-color: rgb(71, 150, 71);
+}
+
+.modal-btn:hover:not([disabled]) {
+    /*your styles*/
+    /* color: blue !important; */
+    background-color: green !important;
+
+}
+
+.back-shadow{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(34, 33, 33,0.7);
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-shadow .custom-modal{
+    width: 75%;
+    height: 70%;
+    background-color: rgb(245, 242, 242);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .8vh;
+    padding: 1vh 0.7vw;
+
+}
+
+.back-shadow .custom-modal .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+    padding: 0 2% 0 2%;
+    color: black;
+    background-color: white;
+}
+
+.back-shadow .custom-modal .header p:nth-child(1){
+    font-size: 2vw;
+    cursor: pointer;
+    color: green;
+}
+.back-shadow .custom-modal .header p:nth-child(2){
+    font-size: 1.8vw;
+    cursor: pointer;
+}
+
+.back-shadow .custom-modal .body{
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

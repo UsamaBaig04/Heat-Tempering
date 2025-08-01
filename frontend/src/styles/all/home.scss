@@ -1,0 +1,72 @@
+.main-container {
+    padding: 1.6vh 0.8vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+    background-color: rgb(249, 246, 246);
+    height: 96.5%;
+    // width: calc(84vw);
+
+    .filterpanel {
+        height: 12%;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        padding: 2vh;
+        justify-content: flex-end;
+        gap: 1vw;
+
+        .select-params {
+            // display: flex;
+            // height: 4.1vh !important; 
+            // width: 11vw;
+
+                   
+        }
+
+        .startDate {
+            // height: 5vh;
+            width: 11vw;
+
+            .rs-picker-toggle-wrapper {
+                height: 4.2vh;
+            }
+        }
+
+        .endDate {
+            width: 11vw;
+            // height: 4vh;
+
+
+            .rs-picker-toggle-wrapper {
+                height: 4.2vh;
+            }
+        }
+
+        .reset {
+            background-color: rgb(78, 202, 237);
+            height: 4.2vh;
+            width: 7vw;
+            border-radius: 0.7vh;
+        }
+    }
+
+    // .data-export {
+    //     display: flex;
+    //     justify-content: flex-end;
+    //     padding: 2vh;
+    //     background-color: white;
+    //     height: 9vh;
+    // }
+
+    .export {
+        background-color: rgb(78, 202, 237);
+        height: 4.2vh;
+        width: 7vw;
+        border-radius: 0.7vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

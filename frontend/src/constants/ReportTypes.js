@@ -1,0 +1,1 @@
+export const reportTypes = ["DATA REPORT", "ALARM REPORT", "EVENT REPORT"]

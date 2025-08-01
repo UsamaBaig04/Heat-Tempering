@@ -1,0 +1,92 @@
+.rs-picker-daterange {
+    float: right !important;
+    color: black !important;
+    border: calc(0.1vw) solid grey !important;
+    border-radius: 5px;
+    width: calc(26vw) !important;
+    height: 6vh;
+
+
+}
+
+.rs-picker-toggle {
+    height: 100% !important;
+    font-size: calc(1.1vw) !important;
+}
+
+.rs-stack {
+    height: 100% !important;
+
+}
+
+
+
+.rs-picker-toggle-caret {
+    font-size: calc(1vw) !important;
+    height: 100% !important;
+    padding-bottom: 12px !important;
+}
+
+.rs-picker-toggle-clean {
+    font-size: calc(1vw) !important;
+    margin-right: cal(10vw) !important;
+    height: 100% !important;
+    width: calc(2vw) !important;
+    padding-bottom: 12px !important;
+}
+
+.rs-picker-toggle-read-only {
+    opacity: 1 !important;
+}
+
+.rs-picker-daterange-calendar-group {
+    height: fit-content !important;
+    min-width: calc(35vw) !important;
+}
+
+.rs-calendar {
+    height: 100% !important;
+}
+
+
+
+.rs-picker-menu .rs-calendar {
+    min-width: calc(17.5vw) !important;
+    max-width: calc(17.5vw) !important;
+}
+
+.rs-picker-menu .rs-calendar .rs-calendar-month-dropdown-cell-content,
+.rs-picker-menu .rs-calendar .rs-calendar-table-cell-content {
+    width: fit-content !important;
+}
+
+.rs-calendar-header-time-toolbar {
+
+    float: none !important;
+}
+
+
+.rs-calendar-month-dropdown-row {
+
+    padding: calc(0.3vw) 0 calc(0.3vw) calc(4vw) !important;
+}
+
+.rs-calendar-month-dropdown {
+    margin-top: calc(1vh) !important;
+}
+
+.rs-calendar-month-dropdown-content {
+    border-bottom: 2px solid lightgray !important;
+
+}
+
+.rs-calendar-time-dropdown {
+    border-bottom: 2px solid lightgray !important;
+    margin-top: calc(0.5vh) !important;
+
+
+}
+
+.rs-calendar-month-dropdown-list {
+    width: 100% !important;
+}

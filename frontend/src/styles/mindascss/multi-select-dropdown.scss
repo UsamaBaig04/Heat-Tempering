@@ -1,0 +1,33 @@
+.multi-select{
+    border: calc(0.1vw) solid grey !important;
+    border-radius: 5px;
+    // margin-bottom: calc(1vh) !important;
+    height: 100% !important;
+    width: 12vw;
+
+    .dropdown-container{
+        height: 100% !important;
+        .dropdown-heading{
+            height: 100% !important;
+            font-size: calc(1vw) !important;
+            
+            // .clear-selected-button{
+            //     background-color: aquamarine !important;
+            //     height: 100% !important;
+            //     width: calc(1vw) !important;
+            //     align-items: center !important;
+            //     svg{
+            //         height: calc(3vh) !important;
+            //         width: calc(1.5vw) !important;
+            //         background-color: blueviolet !important;
+            //         line{
+            //             font-size: calc(1vw) !important;
+
+            //         }
+            //     }
+            // }
+        }
+    }
+
+
+}

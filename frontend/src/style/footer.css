@@ -1,0 +1,30 @@
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(6vh);
+    background-color: #daebf8;
+    width: 100%;
+    /* border-top: calc(0.2vw) solid gray; */
+}
+
+.footer-text {
+    font-size: calc(0.9vw);
+}
+
+.footer-logo {
+    display: flex;
+    padding-right: calc(1vw);
+}
+
+.footer-logo img {
+    height: calc(1.7vw);
+}
+
+.footer-logo .footer-logo-text h6 {
+    font-size: calc(0.4vw);
+    font-weight: bold;
+
+}
+
+

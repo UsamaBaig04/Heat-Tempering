@@ -1,0 +1,1 @@
+export const ApplicationList = ["LAF ANNUNCIATOR SYSTEM","BMS","EMS","Water System","MEDS","PSG","Power","Boiler","Compressor","Diesel Pump","UHT Water Tank","Nitrogen","WVA","RO&DM","UPS","Production"]

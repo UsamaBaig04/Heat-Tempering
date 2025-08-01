@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+  }
+.login-container {
+    background-image: linear-gradient(to bottom, dodgerblue 5%, black);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat
+ }
+ 
+button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.control{
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+    height: 45px;
+    padding: 0 16px;
+    background: #edeaf7;
+    color: #5a4f79;
+    font-family: inherit;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.login-card {
+    place-items: center;
+    width: 400px;
+    height: 450px;
+    // padding: 50px 30px 64px;
+    padding:2.5rem 1.5rem;
+    border-radius: 1.25rem;
+    background: #ffffff;
+    text-align: center; 
+    position: fixed;
+    top: 20%;
+    left: 35%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+.login-card > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 6px;
+}
+.login-card > h3 {
+    color: #837f90;
+    margin: 0 0 10px;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+.login-form {
+    width: 100%;
+    margin: 0;
+    display:grid;
+    gap: 16px;
+}
+.login-form > button.control {
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    padding: 0 16px;
+    // background: #703eff;
+    background: #0d34a1;
+    color: #f9f9f9;
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    transition: all 0.375s;
+}
+
+.login-card img{
+    height: 7rem;
+}

@@ -1,0 +1,49 @@
+.user-report{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* margin:1vh 0.7vw; */
+    background-color: #eeeeee;
+    padding: 1.1vh 0.4vw;
+    /* border-radius: 5px; */
+    gap: 5px;
+}
+
+
+/* userDatareport */
+
+.report-table{
+    background-color: white;
+    height: 73.1vh;
+}
+.data-report-table{
+    background-color: white;
+    height: 68.6vh;
+}
+
+/* table */
+.table-title{
+    display: flex;
+    justify-content: space-between;
+    height: 7vh;
+    align-items: center;
+    color: rgb(72, 91, 170);
+    padding: 0 10px;
+}
+
+/* userDatareport */
+
+
+
+/* user alarm report*/
+
+.table-title input{
+    margin-right: 1vw;
+    padding: 0 0.5vw;
+    height: 100%;
+    border-radius: 3px;
+    font-size: 1vw !important;
+}
+
+/* user alarm report*/

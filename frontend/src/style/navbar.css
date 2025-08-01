@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+    background-color:#d1f6fc;
+    padding: 1vh 1vw;
+    align-items: center;
+    box-shadow: 3px 18px 49px -17px rgba(0,0,0,0.12);
+    -webkit-box-shadow: 3px 18px 49px -17px rgba(0,0,0,0.12);
+    -moz-box-shadow: 3px 18px 49px -17px rgba(0,0,0,0.12);
+}
+
+.header-title {
+    font-size: 2vw;
+    color: #2596be;
+    font-weight: bolder;
+}
+
+.logout {
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+    padding-top: 1vh;
+}
+
+.brand-logo img {
+    height: 6.5vh;
+}

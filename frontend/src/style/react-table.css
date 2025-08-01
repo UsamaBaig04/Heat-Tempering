@@ -1,0 +1,18 @@
+.ReactTable {
+    border: solid 1px lightgray !important;
+}
+
+.rt-thead{
+    font-weight: bold !important;
+    min-width:fit-content !important;
+    border-bottom: solid 1px lightgray !important;
+}
+
+
+.ReactTable .rt-tbody .rt-tr-group {
+    border-bottom: solid 1px lightgray !important;
+  }
+
+  .ReactTable .rt-tbody .rt-td {
+    border-right: 1px solid lightgrey !important;
+  }

@@ -1,0 +1,1 @@
+export const  accumulator = ['OLD ACCUM. 1', 'OLD ACCUM. 2']

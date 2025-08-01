@@ -1,0 +1,207 @@
+// dashboard main div
+.dashboard {
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    background-color: white;
+    height: 96.5%;
+
+
+    // search filter
+    .search-filter {
+        width: 25vw;
+        height: 5vh;
+
+
+        .form-control {
+            font-size: 1.2vw;
+        }
+
+        .form-control:focus {
+            box-shadow: none !important;
+        }
+
+        #basic-addon1 {
+            background-color: rgb(7, 100, 7);
+            font-size: 1.1vw;
+        }
+
+    }
+
+    // title
+    .title {
+        font-size: 2vw;
+        color: rgb(7, 100, 7);
+        font-weight: bold;
+
+    }
+
+    //content
+    .content {
+        display: flex;
+
+        .col {
+            width: 33%;
+            height: 65vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2vh;
+            justify-content: space-between;
+        }
+
+        .col2 {
+            width: 33%;
+        }
+
+
+        .col3 {
+            width: 33%;
+        }
+
+        .content-box {
+            border-left: 3px solid rgb(42, 191, 141);
+            border-radius: 2px;
+            padding: 1vh 1.5vw;
+            height: 28%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .content-box-title {
+                color: rgb(7, 100, 7);
+                font-size: 1.3vw;
+                font-weight: 500;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .content-box-title-icon {
+                    font-size: 3vw;
+                    color: rgb(174, 174, 174);
+                }
+            }
+
+            .content-box-div2 {
+                font-size: 1vw;
+
+                .count {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+
+    }
+
+}
+
+
+
+
+
+
+
+// Dashboard Guage Check 
+
+.dash-guage-check {
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 96.5%;
+    background-color: white;
+
+
+
+}
+
+
+// Dashboard leak test
+
+.dash-leak-test {
+    padding: 3vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    height: 96.5%;
+    background-color: white;
+
+}
+
+
+// Dashboard ball press
+
+.dash-ball-press {
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 96.5%;
+    background-color: white;
+
+
+}
+
+
+// Dashboard ball check
+
+.dash-ball-check {
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 96.5%;
+    background-color: white;
+}
+
+
+// Dashboard accumulator assembly
+.dash-accu-assembly {
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 96.5%;
+    background-color: white;
+}
+
+// Dashboard rail assembly
+.dash-rail-assembly {
+    padding: 4vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    height: 96.5%;
+    background-color: white;
+}
+
+
+// Dashboard dry leak test
+.dash-dry-leak-test {
+    padding: 2vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    height: 96.5%;
+    background-color: white;
+
+
+    .final-value {
+        display: flex;
+        color: white;
+        gap: 0.2vw;
+
+        .final-value-div {
+            width: 50%;
+            display: flex;
+            justify-content: space-between;
+            background-color: #073b17;
+            padding: 0 5vw;
+            font-weight: bold;
+            font-size: 1.2vw;
+
+        }
+    }
+}

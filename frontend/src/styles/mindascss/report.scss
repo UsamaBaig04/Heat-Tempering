@@ -1,0 +1,28 @@
+.report-body{
+    background-color: white;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5vh;
+    
+    .table-header{
+        // background-color: aqua;
+        height: 10%;
+        display: flex;
+        align-items: center;
+        padding: 1vw;
+        justify-content: space-between;
+       
+
+        .heading{
+            display: flex;
+            font-size: 3.6vh;
+        }
+    }
+    .table-view{
+        // background-color: aquamarine;
+        // border: 1px solid black;
+        height: 90%;
+    }
+}
